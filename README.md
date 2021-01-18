@@ -1,7 +1,7 @@
 # Fair Swap
 ### To Install
 
-copy the folling in your terminal
+copy the following in your terminal
 
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/threefoldfoundation/www_fairswap/master/tools/install.sh)"
