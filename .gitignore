@@ -1,0 +1,15 @@
+*.log
+.cache
+.DS_Store
+src/.temp
+node_modules
+dist
+.env
+.env.*
+package-lock.json
+yarn.lock
+content/blog
+content/person
+content/project
+content/news
+
