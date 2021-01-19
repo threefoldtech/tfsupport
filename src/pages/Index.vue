@@ -41,6 +41,11 @@
       :features="$page.markdownPage.features2"
     /> -->
 
+    <Roadmap
+        v-if="$page.markdownPage.roadmap.length > 0"
+        :roadmap="$page.markdownPage.roadmap"
+    />
+
     <logoShowcase
       v-if="$page.markdownPage.logos.length > 0"
       :logos="$page.markdownPage.logos"
@@ -113,6 +118,11 @@
          subtitle
          excerpt(length: 2000)
        }
+        roadmap{
+          id
+          title
+          excerpt
+        }
        featuresMain{
           id
           title 
@@ -175,6 +185,7 @@
 <script>
 import SolutionsHeader from "~/components/custom/sections/header/HeaderSection.vue";
 import Header from "~/components/marketing/sections/cta-sections/Header.vue";
+import Roadmap from "~/components/custom/sections/Roadmap.vue";
 import Features from "~/components/custom/sections/Features.vue";
 import NewCard from "~/components/marketing/sections/cta-sections/NewCard.vue";
 import Getintouch from "~/components/custom/Navbar/Getintouch.vue";
@@ -187,6 +198,7 @@ export default {
   components: {
     SolutionsHeader,
     Header,
+    Roadmap,
     Features,
     NewCard,
     Getintouch,
