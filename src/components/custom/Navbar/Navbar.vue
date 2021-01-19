@@ -91,7 +91,7 @@
             :key="element.name"
             v-for="(element, index) in navigation.navLinks"
             :class="{
-              'mr-2': index != Object.keys(navigation.navLinks).length - 1,
+              'mr-5': index != Object.keys(navigation.navLinks).length,
             }"
           >
             <div

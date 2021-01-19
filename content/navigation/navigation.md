@@ -2,33 +2,32 @@
 id: navigation
 navLinks:
   - name: Features
-    link: #need it to jump to respective section in landing when clicked on
+    link: "" #need it to jump to respective section in landing when clicked on
     external: false
     expandable: false
 
   - name: Roadmap
-    link: #need it to jump to respective section in landing when clicked on
+    link: "" #need it to jump to respective section in landing when clicked on
     external: false
-    expandable: true
+    expandable: false
 
   - name: Partners
-    link: #need it to jump to respective section in landing when clicked on
+    link: "" #need it to jump to respective section in landing when clicked on
     external: false
-    expandable: true
+    expandable: false
 
   - name: Team
-    link: #need it to jump to respective section in landing when clicked on
+    link: "" #need it to jump to respective section in landing when clicked on
     external: false
-    expandable: true
+    expandable: false
 
 social:
   - icon: telegram-plane
-    link: 
+    link: "" #Talegram link
 ---
 
 <!--       - title: Future
         path: /future -->
-
 
 <!--       submenu:
       - title: Solution

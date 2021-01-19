@@ -108,7 +108,7 @@ query ($private: Int){
         header_title
         header_excerpt
         path
-        title
+        # title
         excerpt
       }      
     }

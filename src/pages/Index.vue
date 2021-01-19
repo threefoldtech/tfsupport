@@ -19,10 +19,10 @@
         :header="$page.markdownPage.headerSolution"
       />
 
-      <g-image
+      <!-- <g-image
         v-if="$page.markdownPage.solution_image_2"
         :src="$page.markdownPage.solution_image_2.src"
-      />
+      /> -->
 
       <Features
         :main="$page.markdownPage.featuresMain"
@@ -36,10 +36,10 @@
       />
     </div>
 
-    <Features
+    <!-- <Features
       :main="$page.markdownPage.featuresMain2"
       :features="$page.markdownPage.features2"
-    />
+    /> -->
 
     <logoShowcase
       v-if="$page.markdownPage.logos.length > 0"
@@ -90,7 +90,7 @@
         button
         link
         solution_image
-        solution_image_2
+       # solution_image_2
         cards{
           id
           title
@@ -138,12 +138,12 @@
           svg
           excerpt(length: 2000)
         }
-        features2{
-          id
-          title 
-          svg
-          excerpt(length: 2000)
-        }
+      #  features2{
+      #    id
+      #    title 
+      #    svg
+      #    excerpt(length: 2000)
+      #  }
         signup{
           id
           title
