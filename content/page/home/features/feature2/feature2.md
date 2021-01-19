@@ -1,7 +1,7 @@
 ---
-id: not_scalable
-svg: ./Not_Scalable.png
-title: Not Scalable
+id: cross_chain
+svg: ./cross_chain.svg
+title: Cross-Chain Transactions
 ---
 
-The current model is shaped around building more hyper-scale data centers that are highly inefficient and costly.
+Ahead of the competition, FairSwap enables to swap currencies that are native on different blockchains without intermediaries.

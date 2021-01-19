@@ -1,7 +1,7 @@
 ---
-id: not_decentralized
-svg: ./Not_Centralized.png
-title: Not Decentralized
+id: peer_to_peer
+svg: ./peer_to_peer.svg
+title: Fully Peer-to-Peer
 ---
 
-More than 80% of today’s internet capacity is centralized and controlled by just a handful of companies.
+No third party is involved in transactions.

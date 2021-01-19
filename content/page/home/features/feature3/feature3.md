@@ -1,7 +1,7 @@
 ---
-id: not_secure
-svg: ./Not_Secure.png
-title: Not Secure
+id: easy_to_use
+svg: ./easy_to_use.svg
+title: Easy to use
 ---
 
-The current system's complexity and band-aid approach leaves it very vulnerable for hackers and data breaches.
+Transactions are done with a simple and user-friendly interface without clumsy response times.

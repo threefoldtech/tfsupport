@@ -1,16 +1,36 @@
 ---
 id: navigation
 navLinks:
-  - name: Why
-    link: /why
+  - name: Features
+    link: #need it to jump to respective section in landing when clicked on
     external: false
     expandable: false
 
-  - name: Learn
-    link: /learn
+  - name: Roadmap
+    link: #need it to jump to respective section in landing when clicked on
     external: false
     expandable: true
-    submenu:
+
+  - name: Partners
+    link: #need it to jump to respective section in landing when clicked on
+    external: false
+    expandable: true
+
+  - name: Team
+    link: #need it to jump to respective section in landing when clicked on
+    external: false
+    expandable: true
+
+social:
+  - icon: telegram-plane
+    link: 
+---
+
+<!--       - title: Future
+        path: /future -->
+
+
+<!--       submenu:
       - title: Solution
         path: /solution
 
@@ -22,41 +42,4 @@ navLinks:
 
       - title: Knowledge Base
         path: https://wiki.threefold.io/#/what_is_farming
-        external: true
-
-  - name: People
-    link: /people
-    external: false
-    expandable: true
-    submenu:
-      - title: Team
-        path: /team
-
-      - title: Partners
-        path: /partners
-
-  - name: More
-    link: /more
-    external: false
-    expandable: true
-    submenu:
-      - title: Newsroom
-        path: /news
-
-      - title: Blog
-        path: /blog
-
-      - title: Community
-        path: https://forums.threefold.io/
-        external: true
-
-      - title: Contact
-        path: /contact
-
-social:
-  - icon: telegram-plane
-    link: https://t.me/threefoldnews
----
-
-<!--       - title: Future
-        path: /future -->
+        external: true -->
