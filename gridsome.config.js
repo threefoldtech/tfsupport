@@ -75,6 +75,14 @@ module.exports = {
         {
             use: '@gridsome/source-filesystem',
             options: {
+                typeName: 'Roadmap',
+                path: './content/page/**/roadmap/*.md',
+            }
+        },
+
+        {
+            use: '@gridsome/source-filesystem',
+            options: {
                 typeName: 'Features',
                 path: './content/page/**/features/**/*.md',
             }
@@ -209,7 +217,8 @@ module.exports = {
                     headerSolution2: 'SolutionsHeader',
                     headerSolution3: 'SolutionsHeader',
                     headerSolution4: 'SolutionsHeader',
-                    inTheNews: 'InTheNews'
+                    inTheNews: 'InTheNews',
+                    roadmap: 'Roadmap',
                 }
             }
         },

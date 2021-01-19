@@ -9,6 +9,7 @@ featuresMain: feature_home
 features: [peer_to_peer, cross_chain, easy_to_use, non_custodial]
 logos: [logo1, logo2, logo3, logo4, logo5, logo6]
 signup: home_signup
+roadmap: [roadmap_1, roadmap_2, roadmap_3, roadmap_4]
 ---
 
 <!-- header: home_header -->

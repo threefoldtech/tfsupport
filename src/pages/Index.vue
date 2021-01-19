@@ -41,6 +41,11 @@
       :features="$page.markdownPage.features2"
     /> -->
 
+  <Roadmap
+        v-if="$page.markdownPage.roadmap.length > 0"
+        :roadmap="$page.markdownPage.roadmap"
+    />
+
     <logoShowcase
       v-if="$page.markdownPage.logos.length > 0"
       :logos="$page.markdownPage.logos"
@@ -113,6 +118,11 @@
          subtitle
          excerpt(length: 2000)
        }
+       roadmap{
+          id
+          title
+          excerpt
+        }
        featuresMain{
           id
           title 
@@ -182,6 +192,7 @@ import logoShowcase from "~/components/marketing/sections/cta-sections/logoShowc
 import SignUp from "~/components/custom/sections/SignUp.vue";
 import CallToAction from "~/components/custom/sections/CallToAction.vue";
 import InTheNews from "~/components/marketing/sections/logo-clouds/off_white_grid.vue";
+import Roadmap from "~/components/custom/sections/Roadmap.vue";
 
 export default {
   components: {
@@ -194,6 +205,7 @@ export default {
     SignUp,
     CallToAction,
     InTheNews,
+    Roadmap,
   },
   metaInfo() {
     return {
