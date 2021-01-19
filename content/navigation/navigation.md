@@ -17,7 +17,7 @@ navLinks:
     expandable: false
 
   - name: Team
-    link: "" #need it to jump to respective section in landing when clicked on
+    link: /team
     external: false
     expandable: false
 
