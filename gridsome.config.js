@@ -71,13 +71,6 @@ module.exports = {
                 path: './content/page/**/productData/**/*.md',
             }
         },
-        {
-            use: '@gridsome/source-filesystem',
-            options: {
-                typeName: 'Roadmap',
-                path: './content/page/**/roadmap/*.md',
-            }
-        },
 
         {
             use: '@gridsome/source-filesystem',
@@ -197,7 +190,6 @@ module.exports = {
                     howItWorks: 'HowItWorks',
                     howItWorksMain: 'HowItWorks',
                     productData: 'Product',
-                    roadmap: 'Roadmap',
                     featuresMain: 'Features',
                     features: 'Features',
                     featuresMain2: 'Features2',
