@@ -1,5 +1,5 @@
 ---
 id: logo1
-image: ./hpe.png
-url: /partners/hpe
+image: ./threefold.png
+url: https://threefold.io/
 ---
