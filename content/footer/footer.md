@@ -10,16 +10,24 @@ youtube: '#'
 github: '#'
 telegram: 'https://t.me/threefoldnews'
 items:
- - title: BECOME A PARTNER
+ - title: PARTNERSHIPS
    links:
-    - name: Name for a link
+    - name: Telegram
       link: ''
- - title: WHITEPAPER
+    - name: Twitter
+      link: ''
+    - name: LinkedIn
+      link: ''
+ - title: TECHNOLOGY
    links:
-    - name: Name for a link
+    - name: Whitepaper
+      link: ''
+    - name: GitHub
       link: ''
  - title: LEGAL
    links:
-    - name: Name for a link
+    - name: Terms&Conditions
+      link: ''
+    - name: PrivacyPolicy
       link: ''
 ---
