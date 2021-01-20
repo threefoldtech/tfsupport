@@ -40,14 +40,14 @@
           >
             {{ post.title }}
           </h3>
-          <p
+          <p v-html="post.content"
             class="text-sm leading-snug tracking-wide text-opacity-100"
             :class="{
               'text-white': index % 2 !== 0,
               'text-gray-800': index % 2 == 0,
             }"
           >
-            {{ post.excerpt }}
+            
           </p>
         </div>
       </div>
