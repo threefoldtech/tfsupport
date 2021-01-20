@@ -1,6 +1,6 @@
 ---
 id: home
-header_title: Large Title
+header_title: Title
 header_image: ./fariswap_home.png
 header_excerpt: Experience a new level of security for cross-chain transactions. FairSwap combines the technologies of Blockchain, Erasure-Coding and ZeroOS with the largest network of decentralized capacity in the world.
 button:

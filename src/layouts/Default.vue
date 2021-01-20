@@ -61,7 +61,7 @@ query {
       twitter
       dribbble
       instagram
-      description
+      # description
       items{
         title
         links{

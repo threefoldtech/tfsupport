@@ -1,6 +1,6 @@
 <template>
   <!-- component -->
-  <div class="container bg-gray-200 mx-auto w-full h-full">
+  <div id="roadmap" class="container bg-gray-200 mx-auto w-full h-full">
     <div class="relative wrap overflow-hidden p-10 h-full">
       <div
         class="border-2-2 absolute border-opacity-20 border-gray-700 h-full border"
@@ -40,14 +40,14 @@
           >
             {{ post.title }}
           </h3>
-          <p
+          <p v-html="post.content"
             class="text-sm leading-snug tracking-wide text-opacity-100"
             :class="{
               'text-white': index % 2 !== 0,
               'text-gray-800': index % 2 == 0,
             }"
           >
-            {{ post.excerpt }}
+            
           </p>
         </div>
       </div>

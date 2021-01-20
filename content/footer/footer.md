@@ -1,6 +1,6 @@
 ---
 id: footer
-description: FairSwap
+description: ''
 linkedin: '#'
 facebook: '#'
 twitter: '#'
@@ -10,16 +10,26 @@ youtube: '#'
 github: '#'
 telegram: 'https://t.me/threefoldnews'
 items:
- - title: BECOME A PARTNER
+ - title: JOIN
    links:
-    - name: Name for a link
+    - name: Partnerships
       link: ''
- - title: WHITEPAPER
+    - name: Telegram
+      link: ''
+    - name: Twitter
+      link: ''
+    - name: LinkedIn
+      link: ''
+ - title: TECHNOLOGY
    links:
-    - name: Name for a link
+    - name: Whitepaper
+      link: ''
+    - name: GitHub
       link: ''
  - title: LEGAL
    links:
-    - name: Name for a link
+    - name: Terms&Conditions
+      link: ''
+    - name: PrivacyPolicy
       link: ''
 ---

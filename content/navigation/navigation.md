@@ -2,17 +2,17 @@
 id: navigation
 navLinks:
   - name: Features
-    link: "" #need it to jump to respective section in landing when clicked on
+    link: "#features" 
     external: false
     expandable: false
 
   - name: Roadmap
-    link: "" #need it to jump to respective section in landing when clicked on
+    link: '#roadmap'
     external: false
     expandable: false
 
   - name: Partners
-    link: "" #need it to jump to respective section in landing when clicked on
+    link: '#partners'
     external: false
     expandable: false
 

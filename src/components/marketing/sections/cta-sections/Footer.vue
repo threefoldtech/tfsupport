@@ -9,14 +9,14 @@
         <div class="space-y-8 xl:col-span-1">
           <g-image
             class="h-10"
-            src="/img/tf_icon_black.svg"
+            src="/img/fair_logo_black.png"
             alt="Company name"
             v-if="theme == 'light'"
           />
 
           <g-image
             class="h-10"
-            src="/img/tf_icon_white.svg"
+            src="/img/fair_logo_white.png"
             alt="Company name"
             v-else
           />
@@ -121,7 +121,7 @@
           </div>
         </div>
         <div
-          class="mt-12 grid md:grid-cols-4 sm:grid-cols-2 xl:mt-0 xl:col-span-2"
+          class="mt-12 grid md:grid-cols-3 sm:grid-cols-2 xl:mt-0 xl:col-span-2"
         >
           <!-- class="mt-12 grid grid-cols-2 gap-8 xl:mt-0 xl:col-span-2" -->
 
@@ -161,7 +161,7 @@
       </div>
       <div class="mt-12 border-t border-gray-200 pt-8">
         <p class="text-base leading-6 text-gray-400 xl:text-center">
-          &#xA9; 2021 ThreeFold, All rights reserved.
+          &#xA9; 2021, FairSwap, All rights reserved.
         </p>
       </div>
     </div>

@@ -15,7 +15,7 @@
 
 <page-query>
 query ($private: Int){
-  entries: allPerson (sortBy: "rank", order: DESC, filter: { private: { ne: $private }, memberships: { id: {in: ["foundation", "tech"]}}}){
+  entries: allPerson (sortBy: "rank", order: DESC, filter: { private: { ne: $private }, memberships: { id: {in: ["fairswap"]}}}){
     totalCount
     edges {
       node {
@@ -35,7 +35,7 @@ query ($private: Int){
     }
   }
 
-  memberships: allMembership(filter: {title: {in: ["foundation", "tech"]}}){
+  memberships: allMembership(filter: {title: {in: ["fairswap"]}}){
      edges{
       node{
         id
