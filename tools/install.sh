@@ -1,7 +1,6 @@
 set -e
 set +x
 
-export NAME=fairswap
 
 # INSTALL CRYSTAL TOOLS
 
@@ -14,12 +13,12 @@ fi
 
 
 # GET REQUIRED REPOSITORIES
-ct git pull -u git@github.com:threefoldfoundation/www_$NAME.git
+ct git pull -u git@github.com:fair-swap/www_fair_swap_org.git
 ct git pull -u git@github.com:threefoldfoundation/data_threefold.git
 
 # GO INTO CODE DIRECTORY
 set -e
-cd ~/code/github/threefoldfoundation/www_$NAME
+cd ~/code/github/fair-swap/www_fair_swap_org
 
 # INSTALL GRIDSOME & DEPENDENCIES FOR GRIDSOME
 rm -f yarn.lock
