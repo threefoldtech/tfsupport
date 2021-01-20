@@ -7,7 +7,7 @@
       />
       
       <g-image
-        v-if="$page.markdownPage.solution_image2"
+        v-if="$page.markdownPage && $page.markdownPage.solution_image2"
         :src="$page.markdownPage.solution_image2.src"
       />
 
@@ -36,13 +36,13 @@
       />
 
       <Features
-        v-if="$page.markdownPage.features3.length > 0"
+        v-if="$page.markdownPage.features3 && $page.markdownPage.features3.length > 0"
         :main="$page.markdownPage.featuresMain3"
         :features="$page.markdownPage.features3"
       />
 
       <HowItWorks
-        v-if="$page.markdownPage.howItWorks.length > 0"
+        v-if="$page.markdownPage.howItWorks && $page.markdownPage.howItWorks.length > 0"
         :HIWData="$page.markdownPage.howItWorks"
         :main="$page.markdownPage.howItWorksMain"
       />
@@ -54,7 +54,7 @@
 
       <GetInTouch
         :contacts="$page.markdownPage.contactData"
-        v-if="$page.markdownPage.contactData.length > 0"
+        v-if="$page.markdownPage.contactData && $page.markdownPage.contactData.length > 0"
       />
 
       <ShowcaseProducts
@@ -76,7 +76,7 @@
       />
 
       <Features
-        v-if="$page.markdownPage.features.length > 0"
+        v-if="$page.markdownPage.features && $page.markdownPage.features.length > 0"
         :main="$page.markdownPage.featuresMain"
         :features="$page.markdownPage.features"
       />
@@ -118,7 +118,7 @@
       </template>
 
       <Features
-        v-if="$page.markdownPage.features2.length > 0"
+        v-if="$page.markdownPage.features2 && $page.markdownPage.features2.length > 0"
         :main="$page.markdownPage.featuresMain2"
         :features="$page.markdownPage.features2"
       />
