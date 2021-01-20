@@ -1,6 +1,6 @@
 ---
 id: footer
-description:
+description: ''
 linkedin: '#'
 facebook: '#'
 twitter: '#'

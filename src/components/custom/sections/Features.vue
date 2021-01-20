@@ -1,5 +1,5 @@
 <template>
-  <section class="py-12 px-4">
+  <section id="features" class="py-12 px-4">
     <h2 class="text-4xl text-center mb-12 font-semibold font-heading">
       {{ main.title }}
     </h2>

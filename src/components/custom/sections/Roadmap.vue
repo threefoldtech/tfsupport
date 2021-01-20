@@ -1,6 +1,6 @@
 <template>
   <!-- component -->
-  <div class="container bg-gray-200 mx-auto w-full h-full">
+  <div id="roadmap" class="container bg-gray-200 mx-auto w-full h-full">
     <div class="relative wrap overflow-hidden p-10 h-full">
       <div
         class="border-2-2 absolute border-opacity-20 border-gray-700 h-full border"
