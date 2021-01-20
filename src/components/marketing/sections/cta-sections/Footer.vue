@@ -9,14 +9,14 @@
         <div class="space-y-8 xl:col-span-1">
           <g-image
             class="h-10"
-            src="/img/tf_icon_black.svg"
+            src="/img/fair_logo_black.png"
             alt="Company name"
             v-if="theme == 'light'"
           />
 
           <g-image
             class="h-10"
-            src="/img/tf_icon_white.svg"
+            src="/img/fair_logo_white.png"
             alt="Company name"
             v-else
           />
