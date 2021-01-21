@@ -25,7 +25,7 @@ items:
     - name: Whitepaper
       link: ''
     - name: GitHub
-      link: ''
+      link: 'https://github.com/fair-swap/www_fair_swap_org'
     - name: ZeroOS
       link: 'https://wiki.threefold.io/#/threefold_layers'
     - name: SmartContractForIT
