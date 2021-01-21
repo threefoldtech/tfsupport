@@ -1,7 +1,7 @@
 ---
 id: cross_chain
 svg: ./cross_chain.svg
-title: Cross-Chain Transactions
+title: Swap Everything
 ---
 
-Ahead of the competition, FairSwap enables to swap currencies that are native on different blockchains without intermediaries.
+FairSwap enables secure exchange of goods, services and digital currencies.

@@ -13,11 +13,11 @@ blockquote {
 
 body {
     padding-top: 100px;
-    font-family: 'Inconsolata', monospace !important;
+    font-family: "Inconsolata", monospace !important;
 }
 
 h2 {
-    font-family: 'Inconsolata', monospace !important;
+    font-family: "Inconsolata", monospace !important;
 }
 
 pre {
@@ -44,6 +44,10 @@ ul {
 :not(pre)>code {
     @apply text-red-600;
     @apply text-base;
+}
+
+.inset-0 {
+    bottom: auto !important;
 }
 
 @tailwind components;

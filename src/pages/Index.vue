@@ -95,7 +95,7 @@
         button
         link
         solution_image
-       # solution_image_2
+      # solution_image_2
         cards{
           id
           title
@@ -113,6 +113,7 @@
          link1
          btn2
          link2
+         content
        }
         headerSolution{
          subtitle
@@ -169,6 +170,7 @@
           excerpt(length: 2000)
           button
           link
+          content
         }
         inTheNews {
           id

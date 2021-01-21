@@ -1,11 +1,11 @@
 ---
 id: home_header
-title: ''
-subtitle: Decentralization is taking over
-btn1: ''
-link1: ''
-btn2: ''
-link2: ''
+title: FULLY DECENTRALIZED MARKETPLACE
+subtitle: SWAP EVERYTHING
+btn1: What's ZeroOS?
+link1: https://wiki.threefold.io/#/threefold_layers
+btn2: Network of decentralized capacity
+link2: https://threefold.io/
 ---
 
-Emerging technologies demand edge solutions to scale. ThreeFold created secure and scaleable technology at the edge that allows anyone to connect capacity, anywhere.
+FairSwap is a decentralized Peer-to-Peer marketplace. Combining the technologies of Blockchain, Erasure-Coding and ZeroOS with the largest network of decentralized capacity in the world.

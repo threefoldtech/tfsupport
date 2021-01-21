@@ -1,10 +1,10 @@
 ---
 id: home
-header_title: Secure & Decentralized Transactions
-header_image: ./decentralize.png
-header_excerpt: Experience a new level of security for cross-chain transactions. FairSwap combines the technologies of Blockchain, Erasure-Coding and ZeroOS with the largest network of decentralized capacity in the world.
-button:
-link:
+header_title: SWAP EVERYTHING
+header_image: ./home_image.jpg
+header_excerpt: FairSwap is a decentralized peer-to-peer marketplace. With a sophisticated tech-stack of Blockchain, Erasure-Coding and ZeroOS it is built on the world's largest grid of decentralized capacity, enabling fair exchange of goods and currencies for everyone.
+button: 
+link: 
 featuresMain: feature_home
 features: [peer_to_peer, cross_chain, easy_to_use, non_custodial]
 logos: [logo1, logo2, logo3]

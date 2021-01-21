@@ -1,5 +1,5 @@
 <template>
-  <div class="fixed inset-0 h-16 bg-white">
+  <div class="fixed inset-0 bg-white">
     <header
       class="flex items-center justify-between flex-wrap container mx-auto px-4 sm:px-0 py-4 transition-all transition-500"
       v-bind:class="{
@@ -197,9 +197,9 @@
           />
         </div> -->
         <ul class="list-none inline-flex justify-center md:justify-end">
-          <li class="mr-0 sm:mr-6">
+          <!-- <li class="mr-0 sm:mr-6">
             <ThemeSwitcher v-on="$listeners" :theme="theme" />
-          </li>
+          </li> -->
           <li
             :key="element.name"
             v-for="(element, index) in navigation.social"
