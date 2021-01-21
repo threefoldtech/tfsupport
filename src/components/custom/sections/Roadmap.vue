@@ -1,6 +1,6 @@
 <template>
   <!-- component -->
-  <div id="roadmap" class="container bg-gray-200 mx-auto w-full h-full">
+  <div id="roadmap" class="container mx-auto w-full h-full">
     <div class="relative wrap overflow-hidden p-10 h-full">
       <div
         class="border-2-2 absolute border-opacity-20 border-gray-700 h-full border"
@@ -27,14 +27,14 @@
         <div
           class="order-1 rounded-lg shadow-xl w-5/12 px-6 py-4"
           :class="{
-            'bg-red-400': index % 2 !== 0,
-            'bg-gray-400': index % 2 == 0,
+            'roadmap_blue': index % 2 !== 0,
+            'roadmap_green': index % 2 == 0,
           }"
         >
           <h3
             class="mb-3 font-bold text-xl"
             :class="{
-              'text-white': index % 2 !== 0,
+              'text-gray-800': index % 2 !== 0,
               'text-gray-800': index % 2 == 0,
             }"
           >
@@ -43,7 +43,7 @@
           <p v-html="post.content"
             class="text-sm leading-snug tracking-wide text-opacity-100"
             :class="{
-              'text-white': index % 2 !== 0,
+              'text-gray-800': index % 2 !== 0,
               'text-gray-800': index % 2 == 0,
             }"
           >
@@ -60,3 +60,12 @@ export default {
   props: ["roadmap"],
 };
 </script>
+<style scoped>
+.roadmap_blue {
+  background-color: #9CD2F1;
+}
+
+.roadmap_green {
+  background-color: #A0F7B6;
+}
+</style>

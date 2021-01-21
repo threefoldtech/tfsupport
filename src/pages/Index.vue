@@ -113,6 +113,7 @@
          link1
          btn2
          link2
+         content
        }
         headerSolution{
          subtitle
@@ -169,6 +170,7 @@
           excerpt(length: 2000)
           button
           link
+          content
         }
         inTheNews {
           id
