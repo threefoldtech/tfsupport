@@ -23,7 +23,7 @@ items:
  - title: TECHNOLOGY
    links:
     - name: Whitepaper
-      link: ''
+      link: 'https://secure.threefold.me/pad/#/2/pad/edit/cquWcxyUjzys5jmOLrsaUGhb/'
     - name: GitHub
       link: 'https://github.com/fair-swap/www_fair_swap_org'
     - name: ZeroOS
