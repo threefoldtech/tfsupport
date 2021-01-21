@@ -1,10 +1,12 @@
 ---
 id: home
-header_title: Secure & Decentralized Transactions
-header_image: ./decentralize.png
-header_excerpt: Experience a new level of security for cross-chain transactions. FairSwap combines the technologies of Blockchain, Erasure-Coding and ZeroOS with the largest network of decentralized capacity in the world.
-button:
-link:
+header_title: SWAP EVERYTHING
+header_image: ./p2p_exchange.png
+header_excerpt: FairSwap is a decentralized Peer-to-Peer marketplace. Combining the technologies of Blockchain, Erasure-Coding and ZeroOS with the largest network of decentralized capacity in the world.
+button: What's ZeroOS?
+link: https://wiki.threefold.io/#/threefold_layers
+header: home_header
+solution_image_2: ./fariswap_home.png
 featuresMain: feature_home
 features: [peer_to_peer, cross_chain, easy_to_use, non_custodial]
 logos: [logo1, logo2, logo3]
