@@ -26,6 +26,13 @@ items:
       link: ''
     - name: GitHub
       link: ''
+    - name: ZeroOS
+      link: 'https://wiki.threefold.io/#/threefold_layers'
+    - name: SmartContractForIT
+      link: 'https://wiki.threefold.io/#/smart_contract_for_it?id=self-driving-it-by-means-of-an-it-smart-contract'
+    - name: ErasureCoding
+      link: 'https://searchstorage.techtarget.com/definition/erasure-coding#:~:text=Erasure%20coding%20(EC)%20is%20a,different%20locations%20or%20storage%20media'
+
  - title: LEGAL
    links:
     - name: Terms&Conditions

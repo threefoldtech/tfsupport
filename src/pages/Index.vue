@@ -19,10 +19,10 @@
         :header="$page.markdownPage.headerSolution"
       />
 
-      <g-image
+      <!-- <g-image
         v-if="$page.markdownPage.solution_image_2"
         :src="$page.markdownPage.solution_image_2.src"
-      /> 
+      /> -->
 
       <Features
         :main="$page.markdownPage.featuresMain"
@@ -95,7 +95,7 @@
         button
         link
         solution_image
-       # solution_image_2
+      # solution_image_2
         cards{
           id
           title
