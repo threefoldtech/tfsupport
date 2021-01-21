@@ -13,7 +13,7 @@ items:
  - title: JOIN
    links:
     - name: Partnerships
-      link: ''
+      link: 'mailto:partnerships@fair-swap.org'
     - name: Telegram
       link: ''
     - name: Twitter
