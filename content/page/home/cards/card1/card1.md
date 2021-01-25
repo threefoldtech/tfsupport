@@ -1,10 +1,10 @@
 ---
 id: home_card
-title: Introducing the 3Node
-image: ./home_card1.png
-button: Learn More
-link: '/participate'
+title: Built on Crystal Twin
+image: ./card_image.png
+button: About Crystal Twin
+link: 'https://twin.threefold.io/'
 order: 1
-excerpt: Data is now considered the most valuable commodity on earth, outshining oil and gold. ThreeFold provides a new paradigm that allows anyone, like you, to participate in the Internet economy. 
+excerpt: Crystal Twin is the all-in-one storage, identity and and security solution. Each user is the sole owner of their data and can choose people and corporations to share their data revocably.
 ---
 
