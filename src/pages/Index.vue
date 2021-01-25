@@ -9,6 +9,11 @@
         :link="$page.markdownPage.link"
       />
 
+     <g-image
+      v-if="$page.markdownPage.solution_image"
+      :src="$page.markdownPage.solution_image.src"
+     />
+
       <SolutionsHeader
         v-if="$page.markdownPage.header"
         :header="$page.markdownPage.header"
@@ -28,6 +33,11 @@
         :main="$page.markdownPage.featuresMain"
         :features="$page.markdownPage.features"
       />
+      
+      <VerticalNav
+        :slides="$page.markdownPage.slides"
+        v-if="$page.markdownPage.slide && $page.markdownPage.slides.length > 0"
+      />
 
       <NewCard
         v-for="card in $page.markdownPage.cards"
@@ -41,7 +51,7 @@
       :features="$page.markdownPage.features2"
     /> -->
 
-  <Roadmap
+   <Roadmap
         v-if="$page.markdownPage.roadmap.length > 0"
         :roadmap="$page.markdownPage.roadmap"
     />
@@ -51,10 +61,10 @@
       :logos="$page.markdownPage.logos"
     />
 
-    <InTheNews
+    <!-- <InTheNews
       v-if="$page.markdownPage.inTheNews"
       :news="$page.markdownPage.inTheNews"
-    />
+    /> -->
 
     <template>
       <ClientOnly>
@@ -73,11 +83,6 @@
         />
       </ClientOnly>
     </template>
-
-    <g-image
-      v-if="$page.markdownPage.solution_image"
-      :src="$page.markdownPage.solution_image.src"
-    />
 
     <!-- <Getintouch :contacts="contacts"/> -->
   </Layout>
@@ -104,6 +109,13 @@
           link
           order
           excerpt(length: 2000)
+        }
+        slides{
+          id
+          title
+          content
+          image
+          order
         }
         header{
          title
@@ -196,10 +208,12 @@ import SignUp from "~/components/custom/sections/SignUp.vue";
 import CallToAction from "~/components/custom/sections/CallToAction.vue";
 import InTheNews from "~/components/marketing/sections/logo-clouds/off_white_grid.vue";
 import Roadmap from "~/components/custom/sections/Roadmap.vue";
+import VerticalNav from "~/components/custom/Navbar/VerticalNav.vue";
 
 export default {
   components: {
     SolutionsHeader,
+    VerticalNav,
     Header,
     Features,
     NewCard,

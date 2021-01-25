@@ -1,13 +1,13 @@
 ---
 id: navigation
 navLinks:
-  - name: Features
-    link: "#features" 
+  - name: Roadmap
+    link: '#roadmap'
     external: false
     expandable: false
 
-  - name: Roadmap
-    link: '#roadmap'
+  - name: Blog
+    link: '/blog'
     external: false
     expandable: false
 
@@ -17,7 +17,7 @@ navLinks:
     expandable: false
 
   - name: Team
-    link: /team
+    link: '/team'
     external: false
     expandable: false
 

@@ -1,16 +1,21 @@
 ---
 id: home
-header_title: SWAP EVERYTHING
+header_title: Fair, Easy & Free
 header_image: ./home_image.jpg
-header_excerpt: FairSwap is a decentralized peer-to-peer marketplace. With a sophisticated tech-stack of Blockchain, Erasure-Coding and ZeroOS it is built on the world's largest grid of decentralized capacity, enabling fair exchange of goods and currencies for everyone.
-button: 
-link: 
+header_excerpt: FairSwap is enabling a simple exchange of goods, time and currencies for everyone.
+button: ''
+link: ''
+solution_image: ./home_image_lg.png
 featuresMain: feature_home
 features: [peer_to_peer, cross_chain, easy_to_use, non_custodial]
+header: home_header
+slides: [simplicity, inclusiveness, empowerment, collaboration]
+cards: [home_card]
 logos: [logo1, logo2, logo3]
 signup: home_signup
-roadmap: [roadmap_1, roadmap_2, roadmap_3, roadmap_4]
+roadmap: [roadmap_1, roadmap_2, roadmap_3, roadmap_4, roadmap_5]
 ---
+
 
 <!-- header: home_header -->
 <!-- logos: [logo1, logo2, logo3, logo4, logo5, logo6] -->

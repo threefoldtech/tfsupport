@@ -1,7 +1,7 @@
 ---
 id: easy_to_use
 svg: ./easy_to_use.svg
-title: Easy to use
+title: The antidote to complexity
 ---
 
-Transactions are done with a simple and user-friendly interface without clumsy response times.
+FairSwap simplifies the economy, making it inclusive and easy to use for everyone. A secure, unique architecture gets rid of complexity, intermediaries and fee structures.
