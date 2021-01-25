@@ -13,7 +13,7 @@
             <img
               src="/img/fair_logo_black.png"
               class="mr-3 fill-current"
-              width="150"
+              
               v-if="theme == 'light'"
               alt=""
             />
@@ -21,7 +21,7 @@
             <img
               src="/img/fair_logo_white.png"
               class="mr-3 fill-current"
-              width="150"
+              
               v-else
               alt=""
             />
