@@ -15,23 +15,18 @@
       />
 
       <SolutionsHeader
-        v-if="$page.markdownPage.header"
-        :header="$page.markdownPage.header"
-      />
-
-      <SolutionsHeader
         v-if="$page.markdownPage.headerSolution"
         :header="$page.markdownPage.headerSolution"
       />
 
-      <!-- <g-image
-        v-if="$page.markdownPage.solution_image_2"
-        :src="$page.markdownPage.solution_image_2.src"
-      /> -->
-
       <Features
         :main="$page.markdownPage.featuresMain"
         :features="$page.markdownPage.features"
+      />
+
+      <SolutionsHeader
+        v-if="$page.markdownPage.header"
+        :header="$page.markdownPage.header"
       />
 
       <VerticalNav
@@ -50,6 +45,11 @@
       :main="$page.markdownPage.featuresMain2"
       :features="$page.markdownPage.features2"
     /> -->
+
+    <!-- <g-image
+        v-if="$page.markdownPage.solution_image_2"
+        :src="$page.markdownPage.solution_image_2.src"
+      /> -->
 
     <Roadmap
       v-if="$page.markdownPage.roadmap.length > 0"
