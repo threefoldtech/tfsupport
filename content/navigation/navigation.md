@@ -24,6 +24,13 @@ navLinks:
 social:
   - icon: telegram-plane
     link: "" #Talegram link
+
+  - icon: twitter
+    link: "" #Talegram link
+
+  - icon: linkedin
+    link: "" #Talegram link
+    
 ---
 
 <!--       - title: Future
