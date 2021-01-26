@@ -9,10 +9,10 @@
         :link="$page.markdownPage.link"
       />
 
-      <g-image
+      <!-- <g-image
         v-if="$page.markdownPage.solution_image"
         :src="$page.markdownPage.solution_image.src"
-      />
+      /> -->
 
       <SolutionsHeader
         v-if="$page.markdownPage.headerSolution"

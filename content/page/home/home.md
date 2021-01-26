@@ -5,7 +5,6 @@ header_image: ./home_image.jpg
 header_excerpt: FairSwap is enabling a simple exchange of goods, time and currencies for everyone.
 button: ''
 link: ''
-solution_image: ./home_image_lg.png
 featuresMain: feature_home
 features: [peer_to_peer, cross_chain, easy_to_use, non_custodial]
 header: home_header
@@ -41,3 +40,5 @@ solution_image: ./home_image.png -->
 
 <!-- roadmap:
   [roadmap_1, roadmap_2, roadmap_3, roadmap_4] -->
+
+<!--   solution_image: ./home_image_lg.png -->
