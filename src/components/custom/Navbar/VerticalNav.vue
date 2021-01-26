@@ -7,7 +7,8 @@
         :href="`#${index}`"
         class="mt-1 capitalize group flex items-center px-3 py-2 text-sm leading-5 font-medium hover:text-gray-900 hover:bg-gray-400 focus:outline-none transition border-blue-500 hover:bg-gray-100 transition ease-in-out duration-150"
         :class="{
-          'border-r-3 border-blue-500 hover:bg-gray-100': activeIndex === index,
+          'border-r-3 border-blue-500 bg-gray-200 hover:bg-gray-100':
+            activeIndex === index,
         }"
         @click="setActive(index)"
       >
@@ -26,7 +27,7 @@
           "
           :alt="slides[activeIndex].title"
         />
-        <p v-html="slides[activeIndex].content"></p>
+        <div v-html="slides[activeIndex].content"></div>
       </div>
     </div>
   </div>
