@@ -9,10 +9,10 @@
         :link="$page.markdownPage.link"
       />
 
-     <g-image
-      v-if="$page.markdownPage.solution_image"
-      :src="$page.markdownPage.solution_image.src"
-     />
+      <g-image
+        v-if="$page.markdownPage.solution_image"
+        :src="$page.markdownPage.solution_image.src"
+      />
 
       <SolutionsHeader
         v-if="$page.markdownPage.header"
@@ -33,10 +33,10 @@
         :main="$page.markdownPage.featuresMain"
         :features="$page.markdownPage.features"
       />
-      
+
       <VerticalNav
         :slides="$page.markdownPage.slides"
-        v-if="$page.markdownPage.slide && $page.markdownPage.slides.length > 0"
+        v-if="$page.markdownPage.slides && $page.markdownPage.slides.length > 0"
       />
 
       <NewCard
@@ -51,9 +51,9 @@
       :features="$page.markdownPage.features2"
     /> -->
 
-   <Roadmap
-        v-if="$page.markdownPage.roadmap.length > 0"
-        :roadmap="$page.markdownPage.roadmap"
+    <Roadmap
+      v-if="$page.markdownPage.roadmap.length > 0"
+      :roadmap="$page.markdownPage.roadmap"
     />
 
     <logoShowcase
