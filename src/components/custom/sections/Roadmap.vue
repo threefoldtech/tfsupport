@@ -27,8 +27,8 @@
         <div
           class="order-1 rounded-lg shadow-xl w-5/12 px-6 py-4"
           :class="{
-            'roadmap_blue': index % 2 !== 0,
-            'roadmap_green': index % 2 == 0,
+            roadmap_blue: index % 2 !== 0,
+            roadmap_green: index % 2 == 0,
           }"
         >
           <h3
@@ -40,15 +40,14 @@
           >
             {{ post.title }}
           </h3>
-          <p v-html="post.content"
+          <div
+            v-html="post.content"
             class="text-sm leading-snug tracking-wide text-opacity-100"
             :class="{
               'text-gray-800': index % 2 !== 0,
               'text-gray-800': index % 2 == 0,
             }"
-          >
-            
-          </p>
+          ></div>
         </div>
       </div>
     </div>
@@ -62,10 +61,10 @@ export default {
 </script>
 <style scoped>
 .roadmap_blue {
-  background-color: #9CD2F1;
+  background-color: #9cd2f1;
 }
 
 .roadmap_green {
-  background-color: #A0F7B6;
+  background-color: #a0f7b6;
 }
 </style>
