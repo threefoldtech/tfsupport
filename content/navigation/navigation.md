@@ -6,11 +6,6 @@ navLinks:
     external: false
     expandable: false
 
-  - name: Blog
-    link: '/blog'
-    external: false
-    expandable: false
-
   - name: Partners
     link: '#partners'
     external: false
@@ -18,6 +13,11 @@ navLinks:
 
   - name: Team
     link: '/team'
+    external: false
+    expandable: false
+
+  - name: Blog
+    link: '/blog'
     external: false
     expandable: false
 
