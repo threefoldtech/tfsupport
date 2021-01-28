@@ -1,16 +1,21 @@
 ---
 id: home
-header_title: Large Title
-header_image: ./fariswap_home.png
-header_excerpt: Experience a new level of security for cross-chain transactions. FairSwap combines the technologies of Blockchain, Erasure-Coding and ZeroOS with the largest network of decentralized capacity in the world.
-button:
-link:
+header_title: FAIR, EASY & FREE
+header_image: ./home_image.jpg
+header_excerpt: FairSwap is enabling a simple exchange of goods, time and currencies for everyone.
+button: ''
+link: ''
 featuresMain: feature_home
 features: [peer_to_peer, cross_chain, easy_to_use, non_custodial]
-logos: [logo1, logo2, logo3, logo4, logo5, logo6]
+header: home_header
+slides: [simplicity, inclusiveness, empowerment, collaboration]
+cards: [home_card]
+headerSolution: headerHome
+roadmap: [roadmap_1, roadmap_2, roadmap_3, roadmap_4, roadmap_5]
+logos: [logo1, logo2, logo3]
 signup: home_signup
-roadmap: [roadmap_1, roadmap_2, roadmap_3, roadmap_4]
 ---
+
 
 <!-- header: home_header -->
 <!-- logos: [logo1, logo2, logo3, logo4, logo5, logo6] -->
@@ -36,3 +41,5 @@ solution_image: ./home_image.png -->
 
 <!-- roadmap:
   [roadmap_1, roadmap_2, roadmap_3, roadmap_4] -->
+
+<!--   solution_image: ./home_image_lg.png -->

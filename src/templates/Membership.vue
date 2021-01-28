@@ -59,7 +59,7 @@
       }
     }  
 
-    allMembership(filter: {title: {in: ["foundation", "tech"]}}){
+    allMembership(filter: {title: {in: ["fairswap"]}}){
      edges{
       node{
         id

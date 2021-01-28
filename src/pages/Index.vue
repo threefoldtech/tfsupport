@@ -9,24 +9,24 @@
         :link="$page.markdownPage.link"
       />
 
-      <SolutionsHeader
-        v-if="$page.markdownPage.header"
-        :header="$page.markdownPage.header"
-      />
-
-      <SolutionsHeader
-        v-if="$page.markdownPage.headerSolution"
-        :header="$page.markdownPage.headerSolution"
-      />
-
       <!-- <g-image
-        v-if="$page.markdownPage.solution_image_2"
-        :src="$page.markdownPage.solution_image_2.src"
+        v-if="$page.markdownPage.solution_image"
+        :src="$page.markdownPage.solution_image.src"
       /> -->
 
       <Features
         :main="$page.markdownPage.featuresMain"
         :features="$page.markdownPage.features"
+      />
+
+      <SolutionsHeader
+        v-if="$page.markdownPage.header"
+        :header="$page.markdownPage.header"
+      />
+
+      <VerticalNav
+        :slides="$page.markdownPage.slides"
+        v-if="$page.markdownPage.slides && $page.markdownPage.slides.length > 0"
       />
 
       <NewCard
@@ -41,9 +41,19 @@
       :features="$page.markdownPage.features2"
     /> -->
 
-  <Roadmap
-        v-if="$page.markdownPage.roadmap.length > 0"
-        :roadmap="$page.markdownPage.roadmap"
+    <!-- <g-image
+        v-if="$page.markdownPage.solution_image_2"
+        :src="$page.markdownPage.solution_image_2.src"
+      /> -->
+
+    <SolutionsHeader
+        v-if="$page.markdownPage.headerSolution"
+        :header="$page.markdownPage.headerSolution"
+      />
+
+    <Roadmap
+      v-if="$page.markdownPage.roadmap.length > 0"
+      :roadmap="$page.markdownPage.roadmap"
     />
 
     <logoShowcase
@@ -51,10 +61,10 @@
       :logos="$page.markdownPage.logos"
     />
 
-    <InTheNews
+    <!-- <InTheNews
       v-if="$page.markdownPage.inTheNews"
       :news="$page.markdownPage.inTheNews"
-    />
+    /> -->
 
     <template>
       <ClientOnly>
@@ -74,11 +84,6 @@
       </ClientOnly>
     </template>
 
-    <g-image
-      v-if="$page.markdownPage.solution_image"
-      :src="$page.markdownPage.solution_image.src"
-    />
-
     <!-- <Getintouch :contacts="contacts"/> -->
   </Layout>
 </template>
@@ -95,7 +100,7 @@
         button
         link
         solution_image
-       # solution_image_2
+      # solution_image_2
         cards{
           id
           title
@@ -105,6 +110,13 @@
           order
           excerpt(length: 2000)
         }
+        slides{
+          id
+          title
+          content
+          image
+          order
+        }
         header{
          title
          subtitle
@@ -113,6 +125,7 @@
          link1
          btn2
          link2
+         content
        }
         headerSolution{
          subtitle
@@ -122,6 +135,7 @@
           id
           title
           excerpt
+          content
         }
        featuresMain{
           id
@@ -168,6 +182,7 @@
           excerpt(length: 2000)
           button
           link
+          content
         }
         inTheNews {
           id
@@ -193,10 +208,12 @@ import SignUp from "~/components/custom/sections/SignUp.vue";
 import CallToAction from "~/components/custom/sections/CallToAction.vue";
 import InTheNews from "~/components/marketing/sections/logo-clouds/off_white_grid.vue";
 import Roadmap from "~/components/custom/sections/Roadmap.vue";
+import VerticalNav from "~/components/custom/Navbar/VerticalNav.vue";
 
 export default {
   components: {
     SolutionsHeader,
+    VerticalNav,
     Header,
     Features,
     NewCard,

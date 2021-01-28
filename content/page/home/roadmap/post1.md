@@ -1,8 +1,7 @@
 ---
 id: roadmap_1
-title: Q4 2020
+title: Q1 2021
 ---
 
-- Tech developed
-- Beta testing
-- Foundation created
+- Multicurrency Wallet Beta version 
+- Establishment of the FairSwap Foundation in Switzerland

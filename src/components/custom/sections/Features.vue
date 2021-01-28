@@ -1,9 +1,9 @@
 <template>
-  <section class="py-12 px-4">
+  <section id="features" class="py-12 px-4">
     <h2 class="text-4xl text-center mb-12 font-semibold font-heading">
       {{ main.title }}
     </h2>
-    <div class="flex flex-wrap -mx-4 mb-6">
+    <div class="flex flex-wrap mx-4 mb-6">
       <div
         v-for="feature in features"
         :key="feature.id"

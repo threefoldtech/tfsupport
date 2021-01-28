@@ -1,29 +1,36 @@
 ---
 id: navigation
 navLinks:
-  - name: Features
-    link: "" #need it to jump to respective section in landing when clicked on
-    external: false
-    expandable: false
-
   - name: Roadmap
-    link: "" #need it to jump to respective section in landing when clicked on
+    link: '#roadmap'
     external: false
     expandable: false
 
   - name: Partners
-    link: "" #need it to jump to respective section in landing when clicked on
+    link: '#partners'
     external: false
     expandable: false
 
   - name: Team
-    link: /team
+    link: '/team'
+    external: false
+    expandable: false
+
+  - name: Blog
+    link: '/blog'
     external: false
     expandable: false
 
 social:
   - icon: telegram-plane
     link: "" #Talegram link
+
+  - icon: twitter
+    link: "https://twitter.com/SwapFair" #Talegram link
+
+  - icon: linkedin
+    link: "" #Talegram link
+    
 ---
 
 <!--       - title: Future

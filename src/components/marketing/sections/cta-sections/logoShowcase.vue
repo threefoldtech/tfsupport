@@ -1,8 +1,8 @@
 <template>
-  <section class="pt-8 px-4 text-center">
-    <div class="max-w-2xl mx-auto mb-8">
+  <section id="partners" class="pt-12 px-4 text-center">
+    <div class="max-w-2xl mx-auto mb-2">
       <h2 class="text-4xl leading-tight mb-6 font-semibold font-heading">
-        Partners
+        PARTNERS
       </h2>
       <p class="text-gray-400 leading-relaxed"></p>
     </div>
@@ -12,7 +12,7 @@
         :key="idx"
         :to="logo.url"
         target="_blank"
-        class="w-1/2 md:w-1/6 px-8 mb-8"
+        class="md:w-1/3 px-8 mb-0 md:mb-8 mx-auto logo_size"
       >
         <g-image :src="img(logo.image)" />
       </g-link>
@@ -32,6 +32,11 @@ export default {
   },
 };
 </script>
+<style scoped>
+.logo_size img {
+  display: inline;
+}
+</style>
 
 
 
