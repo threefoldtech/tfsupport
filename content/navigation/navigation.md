@@ -26,7 +26,7 @@ social:
     link: "" #Talegram link
 
   - icon: twitter
-    link: "" #Talegram link
+    link: "https://twitter.com/SwapFair" #Talegram link
 
   - icon: linkedin
     link: "" #Talegram link

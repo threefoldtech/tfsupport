@@ -14,11 +14,6 @@
         :src="$page.markdownPage.solution_image.src"
       /> -->
 
-      <SolutionsHeader
-        v-if="$page.markdownPage.headerSolution"
-        :header="$page.markdownPage.headerSolution"
-      />
-
       <Features
         :main="$page.markdownPage.featuresMain"
         :features="$page.markdownPage.features"
@@ -50,6 +45,11 @@
         v-if="$page.markdownPage.solution_image_2"
         :src="$page.markdownPage.solution_image_2.src"
       /> -->
+
+    <SolutionsHeader
+        v-if="$page.markdownPage.headerSolution"
+        :header="$page.markdownPage.headerSolution"
+      />
 
     <Roadmap
       v-if="$page.markdownPage.roadmap.length > 0"
