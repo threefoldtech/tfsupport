@@ -1,6 +1,6 @@
 <template>
-  <section id="partners" class="pt-8 px-4 text-center">
-    <div class="max-w-2xl mx-auto mb-8">
+  <section id="partners" class="pt-12 px-4 text-center">
+    <div class="max-w-2xl mx-auto mb-2">
       <h2 class="text-4xl leading-tight mb-6 font-semibold font-heading">
         PARTNERS
       </h2>
