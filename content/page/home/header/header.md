@@ -1,7 +1,7 @@
 ---
 id: home_header
 title: ''
-subtitle: Our Principles
+subtitle: OUR PRINCIPLES
 btn1: ''
 link1: ''
 btn2: ''

@@ -7,8 +7,8 @@
         >
           {{ title }}
         </h2>
-        <p class="mb-8 text-gray-700 leading-relaxed">{{ excerpt }}</p>
-        <div v-if="button">
+       <p class="mb-8 text-gray-700 leading-relaxed">{{ excerpt }}</p>
+       <div v-if="button">
           <a
             v-if="link.includes('http')"
             target="_blank"
@@ -24,7 +24,7 @@
             >{{ button }}</a
           >
           <!-- <a class="text-gray-600 hover:underline" href="#">Learn more</a> -->
-        </div>
+        </div> 
       </div>
       <div class="lg:w-1/2 px-2"><g-image :src="img" :alt="altImg" /></div>
     </div>

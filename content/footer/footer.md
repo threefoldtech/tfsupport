@@ -17,7 +17,7 @@ items:
     - name: Telegram
       link: ''
     - name: Twitter
-      link: ''
+      link: 'https://twitter.com/SwapFair'
     - name: LinkedIn
       link: ''
  - title: TECHNOLOGY

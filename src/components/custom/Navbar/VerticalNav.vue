@@ -1,5 +1,5 @@
 <template>
-  <div class="my-12">
+  <div class="mb-12 pb-8">
     <nav class="inline-block w-1/4 border-r-2 border-gray-200">
       <a
         v-for="(slide, index) in slides"

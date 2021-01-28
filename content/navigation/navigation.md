@@ -6,11 +6,6 @@ navLinks:
     external: false
     expandable: false
 
-  - name: Blog
-    link: '/blog'
-    external: false
-    expandable: false
-
   - name: Partners
     link: '#partners'
     external: false
@@ -21,12 +16,17 @@ navLinks:
     external: false
     expandable: false
 
+  - name: Blog
+    link: '/blog'
+    external: false
+    expandable: false
+
 social:
   - icon: telegram-plane
     link: "" #Talegram link
 
   - icon: twitter
-    link: "" #Talegram link
+    link: "https://twitter.com/SwapFair" #Talegram link
 
   - icon: linkedin
     link: "" #Talegram link
