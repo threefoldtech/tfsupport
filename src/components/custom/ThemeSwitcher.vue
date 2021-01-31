@@ -11,7 +11,7 @@
 </template>
 
 <script>
-let themes = ['light', 'dark']
+let themes = ['light']
 
 export default {
   props: {
