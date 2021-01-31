@@ -1,11 +1,6 @@
 ---
 id: navigation
 navLinks:
-  - name: Roadmap
-    link: '#roadmap'
-    external: false
-    expandable: false
-
   - name: Partners
     link: '#partners'
     external: false

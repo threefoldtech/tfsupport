@@ -13,13 +13,20 @@ blockquote {
 
 body {
     padding-top: 100px;
-    font-family: "Inconsolata", monospace !important;
+    // font-family: "Inconsolata", monospace !important;
+    font-family: "Lato", sans-serif !important;
+    
 }
 
 h2 {
-    font-family: "Inconsolata", monospace !important;
+    font-family: "Bebas Neue", cursive !important;
+    font-weight: 400 !important;
+    
 }
 
+.font-semibold{
+    font-weight: 400 !important;
+}
 pre {
     @apply border-l;
     @apply border-l-2;
