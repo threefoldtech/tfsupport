@@ -24,9 +24,7 @@ jobs:
           sudo pip3 install check-wheel-contents poetry
           sudo pip3 install python-telegram-bot
           git clone https://github.com/threefoldtech/js-sdk.git
-          git clone https://github.com/threefoldtech/tf_operations.git
-          Username: USERNAME
-          Password: GITHUBTOKEN
+          git clone https://USERNAME:GITHUBTOKEN@github.com/threefoldtech/tf_operations.git
          
         
       - name: Install
