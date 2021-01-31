@@ -46,15 +46,15 @@
         :src="$page.markdownPage.solution_image_2.src"
       /> -->
 
-    <SolutionsHeader
+    <!-- <SolutionsHeader
         v-if="$page.markdownPage.headerSolution"
         :header="$page.markdownPage.headerSolution"
-      />
+      /> -->
 
-    <Roadmap
+    <!-- <Roadmap
       v-if="$page.markdownPage.roadmap.length > 0"
       :roadmap="$page.markdownPage.roadmap"
-    />
+    /> -->
 
     <logoShowcase
       v-if="$page.markdownPage.logos.length > 0"
