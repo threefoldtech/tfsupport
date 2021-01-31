@@ -14,6 +14,9 @@ jobs:
         with:
           ref: master
       - name: Gathering dependencies
+        env:
+          USERNAME: ${{ secrets.USERNAME }}
+          GITHUBTOKEN: ${{ secrets.GITHUBTOKEN }}
         run: |
           sudo apt-get update
           sudo apt-get install -y git python3-pip python3-venv python3-setuptools tmux redis restic nginx cron wireguard
@@ -22,6 +25,10 @@ jobs:
           sudo pip3 install python-telegram-bot
           git clone https://github.com/threefoldtech/js-sdk.git
           git clone https://github.com/threefoldtech/tf_operations.git
+          Username: USERNAME
+          Password: GITHUBTOKEN
+         
+        
       - name: Install
         run: |
           cd js-sdk
