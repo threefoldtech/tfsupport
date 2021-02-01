@@ -13,14 +13,9 @@ jobs:
       - uses: actions/checkout@v2
         with:
           ref: master
+          token: ${{ secrets.GITHUBTOKEN }}
       - name: Gathering dependencies
-        env:
-          USERNAME: ${{ secrets.USERNAME }}
-          GITHUBTOKEN: ${{ secrets.GITHUBTOKEN }}
-        run: |
-          export USERNAME=USERNAME
-          export GITHUBTOKEN= GITHUBTOKEN
-          
+        run: |       
           sudo apt-get update
           sudo apt-get install -y git python3-pip python3-venv python3-setuptools tmux redis restic nginx cron wireguard
           sudo pip3 install --upgrade setuptools wheel
@@ -29,7 +24,7 @@ jobs:
           echo $GITHUBTOKEN
           echo $UERSNAME
           git clone https://github.com/threefoldtech/js-sdk.git
-          git clone https://$USERNAME:$GITHUBTOKEN@github.com/threefoldtech/tf_operations.git
+          git clone https://github.com/threefoldtech/tf_operations.git
          
         
       - name: Install
