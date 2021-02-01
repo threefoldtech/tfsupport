@@ -18,13 +18,18 @@ jobs:
           USERNAME: ${{ secrets.USERNAME }}
           GITHUBTOKEN: ${{ secrets.GITHUBTOKEN }}
         run: |
+          export USERNAME=USERNAME
+          export GITHUBTOKEN= GITHUBTOKEN
+          
           sudo apt-get update
           sudo apt-get install -y git python3-pip python3-venv python3-setuptools tmux redis restic nginx cron wireguard
           sudo pip3 install --upgrade setuptools wheel
           sudo pip3 install check-wheel-contents poetry
           sudo pip3 install python-telegram-bot
+          echo $GITHUBTOKEN
+          echo $UERSNAME
           git clone https://github.com/threefoldtech/js-sdk.git
-          sudo --preserve-env=USERNAME  --preserve-env=GITHUBTOKEN git clone https://USERNAME:GITHUBTOKEN@github.com/threefoldtech/tf_operations.git
+          git clone https://$USERNAME:$GITHUBTOKEN@github.com/threefoldtech/tf_operations.git
          
         
       - name: Install
