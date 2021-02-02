@@ -1,13 +1,13 @@
 <template>
   <Layout :hideHeader="true" :disableScroll="true">
     <div class="container sm:pxi-0 mx-auto overflow-x-hidden py-5">
-     <Header
+     <!-- <Header
         :title="$page.markdownPage.header_title"
         :image="$page.markdownPage.header_image"
         :excerpt="$page.markdownPage.header_excerpt"
         :button="$page.markdownPage.button"
         :link="$page.markdownPage.link"
-      /> 
+      /> -->
 
       <!-- <Features
         :main="$page.markdownPage.featuresMain"
@@ -29,12 +29,12 @@
         v-if="$page.markdownPage.slides && $page.markdownPage.slides.length > 0"
       /> -->
 
-     <!-- <NewCard
+      <!-- <NewCard
         v-for="card in $page.markdownPage.cards"
         :key="card.id"
         :card="card"
       /> -->
-    </div>
+     </div>
 
     <!-- <Features
       :main="$page.markdownPage.featuresMain2"

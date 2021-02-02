@@ -11,9 +11,9 @@
         <div class="inline-flex items-center flex-shrink-0">
           <a href="/" class="flex">
             <img
-              src="/img/fair_logo_black.png"
+              src="/img/TFN_black.svg"
               class="mr-3 fill-current"
-              
+              width="180"
               v-if="theme == 'light'"
               alt=""
             />

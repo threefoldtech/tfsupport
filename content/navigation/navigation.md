@@ -1,30 +1,30 @@
 ---
 id: navigation
 navLinks:
-  - name: Partners
-    link: '#partners'
+  - name: ''
+    link: ''
     external: false
     expandable: false
 
-  - name: Team
-    link: '/team'
+  - name: ''
+    link: ''
     external: false
     expandable: false
 
-  - name: Blog
-    link: '/blog'
+  - name: ''
+    link: ''
     external: false
     expandable: false
 
 social:
   - icon: telegram-plane
-    link: "" #Talegram link
+    link: 'https://t.me/threefoldnews' #link
 
-  - icon: twitter
-    link: "https://twitter.com/SwapFair" #Talegram link
+  - icon: ''
+    link: '' #link
 
-  - icon: linkedin
-    link: "" #Talegram link
+  - icon: ''
+    link: '' #link
     
 ---
 
