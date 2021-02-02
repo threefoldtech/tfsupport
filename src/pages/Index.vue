@@ -1,39 +1,39 @@
 <template>
   <Layout :hideHeader="true" :disableScroll="true">
     <div class="container sm:pxi-0 mx-auto overflow-x-hidden py-5">
-      <Header
+     <Header
         :title="$page.markdownPage.header_title"
         :image="$page.markdownPage.header_image"
         :excerpt="$page.markdownPage.header_excerpt"
         :button="$page.markdownPage.button"
         :link="$page.markdownPage.link"
-      />
+      /> 
 
-      <!-- <g-image
-        v-if="$page.markdownPage.solution_image"
-        :src="$page.markdownPage.solution_image.src"
-      /> -->
-
-      <Features
+      <!-- <Features
         :main="$page.markdownPage.featuresMain"
         :features="$page.markdownPage.features"
-      />
+      /> -->
 
       <SolutionsHeader
         v-if="$page.markdownPage.header"
         :header="$page.markdownPage.header"
       />
-
-      <VerticalNav
-        :slides="$page.markdownPage.slides"
-        v-if="$page.markdownPage.slides && $page.markdownPage.slides.length > 0"
+      
+      <g-image
+        v-if="$page.markdownPage.solution_image"
+        :src="$page.markdownPage.solution_image.src"
       />
 
-      <NewCard
+      <!-- <VerticalNav
+        :slides="$page.markdownPage.slides"
+        v-if="$page.markdownPage.slides && $page.markdownPage.slides.length > 0"
+      /> -->
+
+     <!-- <NewCard
         v-for="card in $page.markdownPage.cards"
         :key="card.id"
         :card="card"
-      />
+      /> -->
     </div>
 
     <!-- <Features
@@ -56,33 +56,33 @@
       :roadmap="$page.markdownPage.roadmap"
     /> -->
 
-    <logoShowcase
+    <!-- <logoShowcase
       v-if="$page.markdownPage.logos.length > 0"
       :logos="$page.markdownPage.logos"
-    />
+    /> -->
 
     <!-- <InTheNews
       v-if="$page.markdownPage.inTheNews"
       :news="$page.markdownPage.inTheNews"
     /> -->
 
-    <template>
+    <!-- <template>
       <ClientOnly>
         <SignUp
           :signup="$page.markdownPage.signup"
           v-if="$page.markdownPage.signup"
         />
       </ClientOnly>
-    </template>
+    </template> -->
 
-    <template>
+    <!-- <template>
       <ClientOnly>
         <CallToAction
           v-if="$page.markdownPage.cta"
           :cta="$page.markdownPage.cta"
         />
       </ClientOnly>
-    </template>
+    </template> -->
 
     <!-- <Getintouch :contacts="contacts"/> -->
   </Layout>
