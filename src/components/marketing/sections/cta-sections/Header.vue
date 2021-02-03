@@ -9,20 +9,19 @@
         </h2>
        <p class="mb-8 text-gray-700 leading-relaxed">{{ excerpt }}</p>
        <div v-if="button">
-          <a
-            v-if="link.includes('http')"
-            target="_blank"
+          <a @click="$crisp.push(['do', 'chat:open'])"
+          
             class="inline-block py-4 px-8 mr-6 leading-none text-white bg-gray-900 hover:bg-gray-700 font-semibold rounded shadow"
-            :href="link"
+            
             >{{ button }}</a
           >
 
-          <a
+          <!-- <a
             v-else
             class="inline-block py-4 px-8 mr-6 leading-none text-white bg-gray-900 hover:bg-gray-700 font-semibold rounded shadow"
             :href="link"
             >{{ button }}</a
-          >
+          > -->
           <!-- <a class="text-gray-600 hover:underline" href="#">Learn more</a> -->
         </div> 
       </div>
@@ -42,6 +41,7 @@ export default {
     },
   },
 };
+
 </script>
 
 <style scoped>
