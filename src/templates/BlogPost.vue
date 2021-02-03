@@ -70,7 +70,7 @@
 
       <div class="">
         <section
-          class="post-content container mx-auto relative font-serif text-gray-700"
+          class="post-content container mx-auto relative font-serif text-gray-700 py-6"
         >
           <div
             class="post-content-text text-xl"

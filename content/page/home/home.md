@@ -1,19 +1,8 @@
 ---
 id: home
-header_title: FAIR, EASY & FREE
-header_image: ./home_image.jpg
-header_excerpt: FairSwap is enabling a simple exchange of goods, time and currencies for everyone.
-button: ''
-link: ''
-featuresMain: feature_home
-features: [peer_to_peer, cross_chain, easy_to_use, non_custodial]
 header: home_header
-slides: [simplicity, inclusiveness, empowerment, collaboration]
-cards: [home_card]
 headerSolution: headerHome
-roadmap: [roadmap_1, roadmap_2, roadmap_3, roadmap_4, roadmap_5]
-logos: [logo1, logo2, logo3]
-signup: home_signup
+solution_image: ./home_image.png
 ---
 
 

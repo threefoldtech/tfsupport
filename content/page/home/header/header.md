@@ -1,9 +1,11 @@
 ---
 id: home_header
 title: ''
-subtitle: OUR PRINCIPLES
-btn1: ''
+subtitle: TF GRID SUPPORT
+btn1: 'Chat Now'
 link1: ''
-btn2: ''
-link2: ''
+btn2: 'Visit Forum'
+link2: 'https://forum.threefold.io/'
 ---
+
+You can now reach our support team through our live chat!

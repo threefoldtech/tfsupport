@@ -11,9 +11,9 @@
         <div class="inline-flex items-center flex-shrink-0">
           <a href="/" class="flex">
             <img
-              src="/img/fair_logo_black.png"
+              src="/img/TFN_black.svg"
               class="mr-3 fill-current"
-              
+              width="180"
               v-if="theme == 'light'"
               alt=""
             />
@@ -54,9 +54,9 @@
         </div>
         <div class="text-gray-400 sm:block md:hidden">
           <ul class="list-none flex justify-center md:justify-end">
-            <li class="mr-0 sm:mr-6">
+            <!-- <li class="mr-0 sm:mr-6">
               <theme-switcher v-on="$listeners" :theme="theme" />
-            </li>
+            </li> -->
             <li
               :key="element.name"
               v-for="(element, index) in navigation.social"
