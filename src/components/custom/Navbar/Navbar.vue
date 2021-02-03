@@ -21,7 +21,6 @@
             <img
               src="/img/fair_logo_white.png"
               class="mr-3 fill-current"
-              
               v-else
               alt=""
             />
@@ -58,7 +57,7 @@
               <theme-switcher v-on="$listeners" :theme="theme" />
             </li> -->
             <li
-              :key="element.name"
+              :key="index"
               v-for="(element, index) in navigation.social"
               class="hover:text-white sm:block"
               v-bind:class="{
@@ -88,7 +87,7 @@
         >
           <li
             class="py-1"
-            :key="element.name"
+            :key="index"
             v-for="(element, index) in navigation.navLinks"
             :class="{
               'mr-5': index != Object.keys(navigation.navLinks).length,
@@ -135,7 +134,7 @@
                   v-if="open"
                   class="px-2 py-2 bg-white rounded-md shadow dark:bg-gray-700"
                 >
-                  <div v-for="link in element.submenu" :key="link.title">
+                  <div v-for="link in element.submenu" :key="link.id">
                     <a
                       v-if="link.external"
                       class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark:bg-transparent dark:hover:bg-gray-600 dark-:focus:bg-gray-600 dark:focus:text-white dark:hover:text-white dark:text-gray-200 md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
@@ -201,7 +200,7 @@
             <ThemeSwitcher v-on="$listeners" :theme="theme" />
           </li> -->
           <li
-            :key="element.name"
+            :key="index"
             v-for="(element, index) in navigation.social"
             class="sm:block"
             v-bind:class="{
