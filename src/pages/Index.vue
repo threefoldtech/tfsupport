@@ -225,7 +225,8 @@ export default {
     Roadmap,
   },
   metaInfo: {
-    title: this.$parent.$metaInfo.title,
+    title: "",
+    titleTemplate: "ThreeFold Support",
     meta: [
       {
         key: "description",
