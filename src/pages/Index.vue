@@ -225,7 +225,7 @@ export default {
     Roadmap,
   },
   metaInfo: {
-    title: this.$page.markdownPage.title,
+    title: this.$parent.$metaInfo.title,
     meta: [
       {
         key: "description",
