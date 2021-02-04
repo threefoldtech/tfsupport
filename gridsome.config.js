@@ -5,7 +5,7 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-    siteName: 'ThreeFold Support | Reach us for support via live chat!',
+    siteName: 'ThreeFold Support',
     plugins: [
 
         // Local models
