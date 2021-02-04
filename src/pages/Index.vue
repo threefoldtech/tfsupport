@@ -1,7 +1,7 @@
 <template>
   <Layout :hideHeader="true" :disableScroll="true">
     <div class="container sm:pxi-0 mx-auto overflow-x-hidden py-5">
-     <!-- <Header
+      <!-- <Header
         :title="$page.markdownPage.header_title"
         :image="$page.markdownPage.header_image"
         :excerpt="$page.markdownPage.header_excerpt"
@@ -18,7 +18,7 @@
         v-if="$page.markdownPage.header"
         :header="$page.markdownPage.header"
       />
-      
+
       <g-image
         v-if="$page.markdownPage.solution_image"
         :src="$page.markdownPage.solution_image.src"
@@ -34,7 +34,7 @@
         :key="card.id"
         :card="card"
       /> -->
-     </div>
+    </div>
 
     <!-- <Features
       :main="$page.markdownPage.featuresMain2"
@@ -224,10 +224,16 @@ export default {
     InTheNews,
     Roadmap,
   },
-  metaInfo() {
-    return {
-      title: this.$page.markdownPage.title,
-    };
+  metaInfo: {
+    title: "",
+    titleTemplate: "ThreeFold Support",
+    meta: [
+      {
+        key: "description",
+        name: "description",
+        content: "Reach us for support via live chat!",
+      },
+    ],
   },
 };
 </script>
