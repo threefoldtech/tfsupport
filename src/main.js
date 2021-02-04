@@ -26,9 +26,11 @@ export default function(Vue, { router, head, isClient }) {
         defaultPlacement: 'top-end',
         defaultClass: 'bg-black text-xs px-2 leading-normal py-1 rounded absolute text-gray-400 max-w-xs mb-1'
     })
-    Vue.use(CrispChat, {
-        websiteId: '1a5a5241-91cb-4a41-8323-5ba5ec574da0',
-        disabled: false,
-        hideOnLoad: true
-    })
+    if (process.isClient) {
+        Vue.use(CrispChat, {
+            websiteId: '1a5a5241-91cb-4a41-8323-5ba5ec574da0',
+            disabled: false,
+            hideOnLoad: true
+        })
+    }
 }

@@ -10,11 +10,13 @@
         class="mb-8 text-gray-700 leading-relaxed"
       ></div>
       <div>
-        <a
-          @click="$crisp.push(['do', 'chat:open'])"
-          class="bg-gray-900 learn-button hover:bg-gray-700 text-gray-100 px-5 py-3 mr-3 font-semibold rounded shadow cursor-pointer"
-          >{{ header.btn1 }}</a
-        >
+        <ClientOnly>
+          <a
+            @click="$crisp.push(['do', 'chat:open'])"
+            class="bg-gray-900 learn-button hover:bg-gray-700 text-gray-100 px-5 py-3 mr-3 font-semibold rounded shadow cursor-pointer"
+            >{{ header.btn1 }}</a
+          >
+        </ClientOnly>
         <!-- <g-link
           class="bg-gray-900 learn-button hover:bg-gray-700 text-gray-100 px-5 py-3 mr-3 font-semibold rounded shadow"
           v-if="header.btn1"
