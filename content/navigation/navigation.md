@@ -1,31 +1,24 @@
 ---
 id: navigation
 navLinks:
-  - name: ''
-    link: ''
+  - name: ""
+    link: ""
     external: false
     expandable: false
 
-  - name: ''
-    link: ''
+  - name: ""
+    link: ""
     external: false
     expandable: false
 
-  - name: ''
-    link: ''
+  - name: ""
+    link: ""
     external: false
     expandable: false
 
 social:
   - icon: telegram-plane
-    link: 'https://t.me/threefoldnews' #link
-
-  - icon: ''
-    link: '' #link
-
-  - icon: ''
-    link: '' #link
-    
+    link: "https://t.me/threefoldnews" #link
 ---
 
 <!--       - title: Future
